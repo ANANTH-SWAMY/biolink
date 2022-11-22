@@ -87,10 +87,8 @@ body{
 
 
 footer{
-	position: absolute;
-	bottom: 0.5%;
 	font-family: jetbrains;
-	font-size: 30px;
+	font-size: 35px;
 	color:var(--foreground);
 	user-select: none;
 }
@@ -178,8 +176,6 @@ body{
 }
 
 footer{
-	position: absolute;
-	bottom: 0.5%;
 	font-family: jetbrains;
 	font-size: 15px;
 	color:var(--foreground);
