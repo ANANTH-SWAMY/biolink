@@ -65,7 +65,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 60px;
+	gap: 3rem;
 }
 
 .links a{
@@ -149,7 +149,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	gap: 60px;
+	gap: 3rem;
 }
 
 .links a{
