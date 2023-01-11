@@ -197,5 +197,5 @@ footer{
 
 ::-webkit-scrollbar-thumb {
   background: var(--foreground);
-  border-radius: 50px;;
+  border-radius: 50px;
 }
