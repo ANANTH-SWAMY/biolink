@@ -1,11 +1,11 @@
 :root{
-	--foreground:#a9b1d6;
-	--background:#1a1b26;
+	--foreground:#EBF8FF;
+	--background:#09073A;
 }
 
 @font-face{
 	font-family :'jetbrains';
-	src:url('./JetBrains Mono SemiBold Nerd Font Complete Mono Windows Compatible.ttf') format('truetype');
+	src:url('./jetbrains_mono_nf.ttf') format('truetype');
 }
 
 @font-face{
@@ -80,7 +80,7 @@ body{
 	background-color: var(--foreground);
 	font-family: jetbrains;
 	font-size: 70px;
-	border-radius: 100px;
+	border-radius: 20px;
 
 	text-decoration: none;
 }
@@ -164,7 +164,7 @@ body{
 	background-color: var(--foreground);
 	font-family: jetbrains;
 	font-size: 40px;
-	border-radius: 100px;
+	border-radius: 20px;
 
 	user-select: none;
 	text-decoration: none;
