@@ -8,12 +8,6 @@
 	src:url('./jetbrains_mono_nf.ttf') format('truetype');
 }
 
-@font-face{
-	font-family :'hanson';
-	src:url("./Hanson-Bold.ttf") format('truetype');
-}
-
-
 body{
 	background:var(--background);
 }
@@ -23,7 +17,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 8rem;
+	gap: 3rem;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -37,7 +31,7 @@ body{
 	justify-content: center;
 	color:var(--foreground);
 	font-family: jetbrains;
-	font-size: 10rem;
+	font-size: 6rem;
 	user-select: none;
 	margin: 0;
 }
@@ -47,16 +41,12 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 13vh;
-	width: 13vh;
+	height: 11rem;
+	width: 11rem;
 	color: #000000;
-	font-family: hanson;
-	font-size: 1.9vh;
 	font-style: italic;
-	user-select: none;
 	border-radius: 50%;
-	border: 0.5vh solid var(--foreground);
-	background: radial-gradient(#ccff00 25%,#000000);
+	border: 0.3rem solid var(--foreground);
 
 }
 
@@ -73,13 +63,13 @@ body{
 	align-items: center;
 	justify-content: center;
 
-	height:8rem;
-	width:35rem;
+	height:4rem;
+	width:19rem;
 
 	color: var(--background);
 	background-color: var(--foreground);
 	font-family: jetbrains;
-	font-size: 4rem;
+	font-size: 2rem;
 	border-radius: 1.1rem;
 
 	user-select: none;
@@ -95,7 +85,7 @@ body{
 
 footer{
 	font-family: jetbrains;
-	font-size: 2.2rem;
+	font-size: 1.2rem;
 	color:var(--foreground);
 	user-select: none;
 }
@@ -114,33 +104,33 @@ footer{
   border-radius: 50px;
 }
 
-@media (min-width: 1024px){
+@media (max-width: 1024px){
 	.container{
-		gap:3rem;
+		gap:5rem;
 	}
 
 	.title{
-		font-size: 6rem;
+		font-size: 10rem;
 	}
 
 	.dp{
-		height: 16vh;
-		width: 16vh;
-		font-size: 2.4vh;
-		border: 0.7vh solid var(--foreground);
+		height: 20rem;
+		width: 20rem;
+		font-size: 2.4rem;
+		border: 0.5rem solid var(--foreground);
 	}
 
 	.links a{
-		height:4rem;
-		width:19rem;
+		height:8rem;
+		width:35rem;
 
-		font-size: 2rem;
+		font-size: 4rem;
 
 		border-radius: 0.7rem;
 	}
 
 	footer{
-		font-size: 1.2rem;
+		font-size: 2.2rem;
 	}
 
 }
