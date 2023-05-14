@@ -17,7 +17,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	gap: 3rem;
+	gap: 2rem;
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -31,7 +31,7 @@ body{
 	justify-content: center;
 	color:var(--foreground);
 	font-family: jetbrains;
-	font-size: 6rem;
+	font-size: 4rem;
 	user-select: none;
 	margin: 0;
 }
@@ -41,8 +41,8 @@ body{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	height: 11rem;
-	width: 11rem;
+	height: 9rem;
+	width: 9rem;
 	color: #000000;
 	font-style: italic;
 	border-radius: 50%;
@@ -63,14 +63,14 @@ body{
 	align-items: center;
 	justify-content: center;
 
-	height:4rem;
-	width:19rem;
+	height: 2.5rem;
+	width: 12rem;
 
 	color: var(--background);
 	background-color: var(--foreground);
 	font-family: jetbrains;
-	font-size: 2rem;
-	border-radius: 1.1rem;
+	font-size: 1.4rem;
+	border-radius: 0.7rem;
 
 	user-select: none;
 	text-decoration: none;
@@ -85,7 +85,7 @@ body{
 
 footer{
 	font-family: jetbrains;
-	font-size: 1.2rem;
+	font-size: 0.8rem;
 	color:var(--foreground);
 	user-select: none;
 }
@@ -104,33 +104,32 @@ footer{
   border-radius: 50px;
 }
 
-@media (max-width: 1024px){
+@media (min-width: 768px){
 	.container{
-		gap:5rem;
+		gap: 3rem;
 	}
 
 	.title{
-		font-size: 10rem;
+		font-size: 6rem;
 	}
 
 	.dp{
-		height: 20rem;
-		width: 20rem;
+		height: 11rem;
+		width: 11rem;
 		font-size: 2.4rem;
-		border: 0.5rem solid var(--foreground);
+		border: 0.3rem solid var(--foreground);
 	}
 
 	.links a{
-		height:8rem;
-		width:35rem;
+		height:4rem;
+		width:19rem;
 
-		font-size: 4rem;
+		font-size: 2rem;
 
-		border-radius: 0.7rem;
 	}
 
 	footer{
-		font-size: 2.2rem;
+		font-size: 1.2rem;
 	}
 
 }
